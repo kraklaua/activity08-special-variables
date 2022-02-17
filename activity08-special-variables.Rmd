@@ -55,7 +55,7 @@ One way to do this is to use a function like `slice_sample(n = ...)` from `{dply
 
 ```{r smaller dataset}
 songs <- billboard_songs %>% 
-  slice_sample(n = 30)
+  slice_sample(n = 200)
 ```
 
 If you wish to work with `{stringr}`, I find it useful to work on vectors first.
@@ -81,7 +81,12 @@ Assuming you were 16 years old by 2015.
 - Which artist has **collaborated** on the most Billboard charting songs?
 - Create some data visualization controlling the order of the character/string variables.
 
+```{r analysis}
+songs %>%
+  
+  
 
+```
 ## Attribution
 
 Parts of this Activity are based on a lab from [Dr. Kelly Bodwin's](https://www.kelly-bodwin.com/) STAT 331 course.
